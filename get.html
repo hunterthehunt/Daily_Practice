@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form GET Method Test</title>
+</head>
+<body>
+
+    <main>
+        <h1>Auth Test Page (GET Method)</h1>
+        
+        <!-- LOGIN FORM -->
+        <section id="login-container">
+            <h2>Log In</h2>
+            <!-- Leaving action empty "" means it will submit and refresh to this same page -->
+            <form action="" method="get">
+                <div>
+                    <label for="login-username">Username:</label>
+                    <input type="text" id="login-username" name="login_user" required>
+                </div>
+                
+                <div>
+                    <label for="login-password">Password:</label>
+                    <input type="password" id="login-password" name="login_pass" required>
+                </div>
+                
+                <button type="submit">Submit Login</button>
+            </form>
+        </section>
+
+        <br><hr><br>
+
+        <!-- SIGNUP FORM -->
+        <section id="signup-container">
+            <h2>Sign Up</h2>
+            <form action="" method="get">
+                <div>
+                    <label for="signup-username">Choose Username:</label>
+                    <input type="text" id="signup-username" name="signup_user" required>
+                </div>
+
+                <div>
+                    <label for="signup-email">Email Address:</label>
+                    <input type="email" id="signup-email" name="signup_email" required>
+                </div>
+                
+                <div>
+                    <label for="signup-password">Create Password:</label>
+                    <input type="password" id="signup-password" name="signup_pass" required>
+                </div>
+                
+                <button type="submit">Submit Registration</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
