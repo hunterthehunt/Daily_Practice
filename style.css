@@ -228,3 +228,16 @@ footer {
         margin: 0.5rem 0;
     }
 }
+
+/* ==========================================================================
+   NEW OVERRIDE: Targets only the home page to set the text color to dark blue
+   ========================================================================== */
+body.index-page {
+    color: #0a2540;
+}
+
+body.index-page .card p, 
+body.index-page .hero p,
+body.index-page .card h3 {
+    color: #0a2540;
+}
